@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+ <html> <!--I have had some compatibility issues between different browsers as this prototype was developed on Opera. I believe that developing on either Chrome or edge would give the correct formatting. -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/f026b1f977.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Trebuchet MS', sans-serif;
+    }
+  </style>
+
+  <!-- This is my nav bar including the logo and the buttons to the other pages as well as the check out buttons. -->
+  <div class='bignav'>
+    <div class="navbar">
+      <button class="navbut">Home </button>
+      <button class="navbut">Paid Listings </button>
+      <button class="navbut">Free Listings </button>
+      <button class="navbut">Support </button>
+      <img id = "toplogo" src="Logo.png"  align = "center" alt="" width="60" height="40">
+      <a href='*' target="_blank" class="signup"  >Sign Up </a>
+      <a href='*' target="_blank" class="checkout">Log In </a>
+    </div>  
+  </div>
+
+</head>
+
+<body>
+  <h1> "Welcome to Roll For Story"</h1>
+  <h2> "The best place to find your next story"</h2>
+  <h2> "Please fill in your details below to get started!"</h2>
+  <form>
+    <label for="fname">Name:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Email:</label><br>
+    <input type="text" id="lname" name="lname">
+    <label for="lname">Password:</label><br>
+    <input type="text" id="pword" name="pword">
+    <label for="lname">Confirm Password:</label><br>
+    <input type="text" id="cpword" name="cpword">
+  </form>
+
+  <br>
+
+
+</body>
+
+
+  <script src="script.js" theme="dark" position="bottom-right"></script>
+
+    <h4 class="rights"> © Copyright Roll For Story 2014-2024</h4>
+  </footer>
+</html>
