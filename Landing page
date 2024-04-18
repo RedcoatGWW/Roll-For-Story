@@ -20,36 +20,163 @@
       <button class="navbut">Free Listings </button>
       <button class="navbut">Support </button>
       <img id = "toplogo" src="Logo.png"  align = "center" alt="" width="60" height="40">
-      <a href='*' target="_blank" class="signup"  >Sign Up </a>
+      <a href='Sign-up.html' target="_blank" class="signup"  >Sign Up </a>
       <a href='*' target="_blank" class="checkout">Log In </a>
     </div>  
   </div>
 
 </head>
-
+  
 <body>
-  <h1> "Welcome to Roll For Story"</h1>
-  <h2> "The best place to find your next story"</h2>
-  <h2> "Please fill in your details below to get started!"</h2>
-  <form>
-    <label for="fname">Name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Email:</label><br>
-    <input type="text" id="lname" name="lname">
-    <label for="lname">Password:</label><br>
-    <input type="text" id="pword" name="pword">
-    <label for="lname">Confirm Password:</label><br>
-    <input type="text" id="cpword" name="cpword">
-  </form>
+  <!-- This contains my navigation bar including dropdowns. -->
 
+  <!-- This div class contains my slideshow and the images -->
+  <div class="slideshow-container"> 
+    <!-- Images for the slides with the animation links -->
+    <div class="mySlides fade">
+      <img src="Dancing_hut.webp" style="width: 100px;height:100px;" >
+      <h4>Organiser: Senrith (Chris)</h4>
+      <h4>Title: Baba Yaga's Dancing Hut (Homebrew)</h4>
+      <h4>Game: Dungeons & Dragons 5th Edition</h4>
+      <p id="spritetxt">Placeholder.* </p>
+      <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="ebberon.jpg" style="width: 100px;height:100px;" >
+      <h4>Organiser: UKWoody (Dan)</h4>
+      <h4>Title: Ebberon: Rising From the Last War</h4>
+      <h4>Game: Dungeons & Dragons 5th Edition</h4>
+      <p id="spritetxt">Placeholder.* </p>
+      <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="Terigs tower.jpg" style="width: 100px;height:100px;" >
+      <h4>Organiser: MisterJammers (Jamey)</h4>
+      <h4>Title: Terig's Tower (Homebrew)</h4>
+      <h4>Game: Dungeons & Dragons 5th Edition</h4>
+      <p id="spritetxt">Placeholder.* </p>
+      <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="curseofstrahd.png" style="width: 100px;height:100px;" >
+      <h4>Organiser: BardicChaos (James)</h4>
+      <h4>Title: Curse of Strahd</h4>
+      <h4>Game: Dungeons & Dragons 5th Edition</h4>
+      <p id="spritetxt">Placeholder.* </p>
+      <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
+    </div>
+  </div>
+  
   <br>
+  
+  <!-- This is the slider selector dots -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+
+  <h2 id="explore"> Discover Games </h2>
+  <!-- This contains my images for the logo grid -->
+  <section class = "logogrid">
+  <div class="icontop">
+    <a target="_blank" href="">
+      <img src="Dancing_hut.webp"  width="180" height="130">
+    </a>
+  </div>
+  
+  <div class="icontop">
+    <a target="_blank" href="">
+      <img src="Dancing_hut.webp" alt="Forest" width="180" height="130">
+    </a>
+  </div>
+
+  <div class="icontop">
+    <a target="_blank" href="">
+      <img src="Dancing_hut.webp"  width="180" height="130">
+    </a>
+  </div>
 
 
+
+  <div class="iconbot">
+    <a target="_blank" href="">
+      <img src="Dancing_hut.webp"  width="180" height="130">
+    </a>
+  </div>
+  
+  <div class="iconbot">
+    <a target="_blank" href="">
+      <img src="Dancing_hut.webp"  width="180" height="130">
+    </a>
+  </div>
+
+  <div class="iconbot">
+    <a target="_blank" href="">
+      <img src="Dancing_hut.webp"  width="180" height="130">
+    </a>
+  </div>
+</section>
+
+<button id="viewall"> <strong>View All  </strong>   </button>
+  
+  
 </body>
 
-
+  
   <script src="script.js" theme="dark" position="bottom-right"></script>
+  
+  
+  <!-- The footer contains images, lists, button icons and horizontal lines to separate sections -->
+  <footer>
+    <p id = "logofoot"><img src="Logo.png" width="170" height="80"></p>
 
+    <section class = "social">
+      
+    <div class='socials'>
+      <a href="#"></a>
+        <img src="Twitter-Logo.wine.png" width="35" height="30">
+    </div>
+      
+    <div class='socials'>
+        <img src="Instagram-Glyph-White-Logo.wine.png" width="35" height="30">
+    </div> 
+      
+    <div class='socials'>
+      <img src="YouTube-Icon-White-Logo.wine.png" width="35" height="30">
+    </div> 
+      
+    <div class='socials'>
+        <img src="Facebook-f_Logo-White-Logo.wine.png" width="35" height="30" href = "www.youtube.com">
+    </div>  
+    </section>
+
+
+
+        
+    <ul>
+      <li id="li1"> About us </li>
+      <li id="li1"> Media Center</li>
+      <li id="li1"> History</li>
+    </ul>
+    <ul>
+      <li id="li2"> Need Help?</li>
+      <li id="li2"> FAQs</li>
+      <li id="li2"> Contact Us</li>
+    </ul>
+    <ul>
+      <li id="li3"> Terms of Use</li>
+      <li id="li3"> Privacy Policy</li>
+      <li id="li3"> Cookie Policy</li>
+      <li id="li3"> Cookie Settings</li>
+    </ul>
+    
+    <hr id="bottomline">
+    
     <h4 class="rights"> © Copyright Roll For Story 2014-2024</h4>
   </footer>
 </html>
