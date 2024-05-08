@@ -19,28 +19,38 @@
       <button class="navbut">Paid Listings </button>
       <button class="navbut">Free Listings </button>
       <button class="navbut">Support </button>
-      <img id = "toplogo" src="Logo.png"  align = "center" alt="" width="60" height="40">
-      <a href='*' target="_blank" class="signup"  >Sign Up </a>
-      <a href='*' target="_blank" class="checkout">Log In </a>
+      <img id = "toplogo" href = "index.html" src="Logo.png"  align = "center" alt="" width="120" height="80">
+      <button class="signup">Sign-Up </button>
+      <button class="signup">Log in </button>
     </div>  
   </div>
 
 </head>
 
 <body>
-  <h1> "Welcome to Roll For Story"</h1>
-  <h2> "The best place to find your next story"</h2>
-  <h2> "Please fill in your details below to get started!"</h2>
-  <form>
-    <label for="fname">Name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Email:</label><br>
-    <input type="text" id="lname" name="lname">
-    <label for="lname">Password:</label><br>
-    <input type="text" id="pword" name="pword">
-    <label for="lname">Confirm Password:</label><br>
-    <input type="text" id="cpword" name="cpword">
-  </form>
+  <div class = "suintro">
+  <h1> Welcome to Roll For Story</h1>
+  <h2> The best place to find your next story</h2>
+  <h2> Please fill in your details below to get started!</h2>
+  <br>
+    </div>
+  <div class = "form">
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="Email"><br>
+      <label for="pwd">Password:</label><br>
+      <input type="password" id="pwd" name="pwd"><br>
+      <br>
+      <input type="Submit" formaction="logged in.html"value="Sign-up">
+      
+    </form>
+  </div>
+
+  
 
   <br>
 
@@ -49,7 +59,50 @@
 
 
   <script src="script.js" theme="dark" position="bottom-right"></script>
+   
+   <footer>
+     <p id = "logofoot"><img src="Logo.png" width="170" height="80"></p>
 
-    <h4 class="rights"> © Copyright Roll For Story 2014-2024</h4>
-  </footer>
+     <section class = "social">
+
+     <div class='socials'>
+       <a href="#"></a>
+         <img src="Twitter-Logo.wine.png" width="35" height="30">
+     </div>
+
+     <div class='socials'>
+         <img src="Instagram-Glyph-White-Logo.wine.png" width="35" height="30">
+     </div> 
+
+     <div class='socials'>
+       <img src="YouTube-Icon-White-Logo.wine.png" width="35" height="30">
+     </div> 
+
+     <div class='socials'>
+         <img src="Facebook-f_Logo-White-Logo.wine.png" width="35" height="30" href = "www.youtube.com">
+     </div>  
+     </section>
+
+
+
+
+     <ul>
+       <li id="li1"> About us </li>
+       <li id="li1"> Media Center</li>
+       <li id="li1"> History</li>
+     </ul>
+     <ul>
+       <li id="li2"> Need Help?</li>
+       <li id="li2"> FAQs</li>
+       <li id="li2"> Contact Us</li>
+     </ul>
+     <ul>
+       <li id="li3"> Terms of Use</li>
+       <li id="li3"> Privacy Policy</li>
+       <li id="li3"> Cookie Policy</li>
+       <li id="li3"> Cookie Settings</li>
+     </ul>
+
+     <h4 class="rights"> © Copyright Roll For Story 2014-2024</h4>
+   </footer>
 </html>
