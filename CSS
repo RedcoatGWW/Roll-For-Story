@@ -5,7 +5,7 @@ html {
 }
 body {
   padding: 40px 40px 10px 40px;
-  background-color: #f1dcbc
+  background-color: #ecba6f;
   margin: -0.1%;
   text-align: center;
 }
@@ -37,7 +37,7 @@ header nav ul {
 /* The following css covers my entire headed including buttons, dropdowns and logo. This also includes the animations and fades*/
 .navbar {
   overflow: hidden;
-  background-color: #8f5a00;
+  background-color: #16bff8;
   display: flex;
   margin: -3.3%;
   padding: 5px;
@@ -51,57 +51,35 @@ header nav ul {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-.dropdown {
-  float: left;
-  overflow: hidden;
+.suintro{
+  padding-top:20px;
 }
 
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: black;
-  padding: 14px 30px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
+.navbut{
+  border-radius: 28px;
+  margin-right: 5px;
+  margin-top:10px;
+  height:40px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color : brown;
+  color: white;
 }
-
-.dropdown:hover .dropbtn {
-  background-color: ##f1f1f1;
+.signup{
+  color: white;
+  border-radius: 28px;
+  margin-top:10px;
+  height:40px;
+  padding-left:20px;
+  padding-right:20px;
+  mrgin-right: 40px;
+  background-color: brown;
+  
 }
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #8f5a00;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
+#toplogo{
+  margin-left: 120px;
+  margin-right:300px;
 }
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-  font-weight: 550;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  font-weight: 550;
-}
-
-/* This covers the main body colour of the website. The colour was taken from the original website. */
-
 
 h2 {
   color: black;
@@ -114,17 +92,14 @@ h2 {
   margin: auto;
   padding: 3em;
   border-radius: 5px;
-  padding-right: 370px;
+  padding-left: 50px;
 }
 
 .mySlides img {
   position: relative;
   right: px;
   border-radius: 20px;
-
 }
-
-
 .mySlides {
   display: none;
   border-radius: 20px;
@@ -155,13 +130,6 @@ h2 {
   color: #f5f5f5;
 }
 
-#impact{
-  padding: 100px;
-  position: sticky;
-  text-align: center;
-  margin-bottom: -100px;
-  text-size-adjust: 10%;
-}
 
 hr{
   margin: 0 30px;
@@ -194,6 +162,7 @@ hr{
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  margin-left: 20px;
 }
 
 .active,
@@ -218,8 +187,7 @@ hr{
 #explore{
   text-align: center;
   margin-left: 60px;
-  margin-bottom: 50px;
-  margin-top: -80px;
+  margin-top: 30px;
 }
 /* Grid template  */
 .logogrid{
@@ -232,6 +200,7 @@ hr{
   padding: auto;
   margin-bottom: 150px;
   margin-left: 275px;
+  margin-top: 50px;
 }
 .icontop , .iconbot{
   border: 12px solid white;
@@ -241,7 +210,7 @@ hr{
 #viewall{
   border-radius: 84px;
   align-items: center;
-  margin-left: 480px;
+  margin-left: 55px;
   width: 250px;
   height: 40px;
   margin-bottom: 80px;
@@ -254,14 +223,14 @@ hr{
 footer {
   background-color: #8f5a00;
   margin: -3.3%;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 #logofoot{
   margin-left: 20px;
   padding-top: 15px;
-  margin-top:80px;
+  margin-top:10px;
   float: inline-start;
-  bottom: 6px;
+  /* bottom: 300px; */
 }
 #bottomline{
   margin-top: 250px;
@@ -322,5 +291,16 @@ ul{
   padding-left: 900px;
   list-style-type: none;
   font-size: 12px;
-  padding-top: 15px;
+  padding-top: 145px;
+}
+
+/* -------------------------------------------*/
+
+.form{
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+
 }
