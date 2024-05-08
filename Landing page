@@ -19,9 +19,12 @@
       <button class="navbut">Paid Listings </button>
       <button class="navbut">Free Listings </button>
       <button class="navbut">Support </button>
-      <img id = "toplogo" src="Logo.png"  align = "center" alt="" width="60" height="40">
-      <a href='Sign-up.html' target="_blank" class="signup"  >Sign Up </a>
-      <a href='*' target="_blank" class="checkout">Log In </a>
+      <img id = "toplogo" href = "index.html" src="Logo.png"  align = "center" alt="" width="120" height="80">
+      <button class = "signup">Sign-Up </button>
+        <a href = "Sign-up.html">  </a>
+      <button class="signup">Log in </button>
+      <!-- <a href='Sign-up.html' target="_blank" class="signup"  >Sign Up </a>
+      <a href='*' target="_blank" class="signup">Log In </a> -->
     </div>  
   </div>
 
@@ -34,38 +37,38 @@
   <div class="slideshow-container"> 
     <!-- Images for the slides with the animation links -->
     <div class="mySlides fade">
-      <img src="Dancing_hut.webp" style="width: 100px;height:100px;" >
+      <img src="Dancing_hut.webp" style="width: 350px;height:250px;" >
       <h4>Organiser: Senrith (Chris)</h4>
       <h4>Title: Baba Yaga's Dancing Hut (Homebrew)</h4>
       <h4>Game: Dungeons & Dragons 5th Edition</h4>
-      <p id="spritetxt">Placeholder.* </p>
+      <h4>Day/Time: Friday, 7:00pm </h4>
       <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
     </div>
     
     <div class="mySlides fade">
-      <img src="ebberon.jpg" style="width: 100px;height:100px;" >
+      <img src="ebberon.jpg" style="width: 350px;height:250px;" >
       <h4>Organiser: UKWoody (Dan)</h4>
       <h4>Title: Ebberon: Rising From the Last War</h4>
       <h4>Game: Dungeons & Dragons 5th Edition</h4>
-      <p id="spritetxt">Placeholder.* </p>
+      <h4>Day/Time: Sunday, 6:00pm </h4>
       <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
     </div>
     
     <div class="mySlides fade">
-      <img src="Terigs tower.jpg" style="width: 100px;height:100px;" >
+      <img src="Terigs tower.jpg" style="width: 350px;height:250px;" >
       <h4>Organiser: MisterJammers (Jamey)</h4>
       <h4>Title: Terig's Tower (Homebrew)</h4>
       <h4>Game: Dungeons & Dragons 5th Edition</h4>
-      <p id="spritetxt">Placeholder.* </p>
+      <h4>Day/Time: Thursday, 4:00pm </h4>
       <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
     </div>
     
     <div class="mySlides fade">
-      <img src="curseofstrahd.png" style="width: 100px;height:100px;" >
+      <img src="curseofstrahd.png" style="width: 350px;height:250px;" >
       <h4>Organiser: BardicChaos (James)</h4>
       <h4>Title: Curse of Strahd</h4>
       <h4>Game: Dungeons & Dragons 5th Edition</h4>
-      <p id="spritetxt">Placeholder.* </p>
+      <p>Day/Time: Tueday, 5:00pm </p>
       <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
     </div>
   </div>
@@ -85,19 +88,19 @@
   <section class = "logogrid">
   <div class="icontop">
     <a target="_blank" href="">
-      <img src="Dancing_hut.webp"  width="180" height="130">
+      <img src="dnd5e.png"  width="180" height="130">
     </a>
   </div>
   
   <div class="icontop">
     <a target="_blank" href="">
-      <img src="Dancing_hut.webp" alt="Forest" width="180" height="130">
+      <img src="3.5.jpg" alt="Forest" width="180" height="100">
     </a>
   </div>
 
   <div class="icontop">
     <a target="_blank" href="">
-      <img src="Dancing_hut.webp"  width="180" height="130">
+      <img src="Pathfinder-logo.webp"  width="180" height="130">
     </a>
   </div>
 
@@ -105,19 +108,19 @@
 
   <div class="iconbot">
     <a target="_blank" href="">
-      <img src="Dancing_hut.webp"  width="180" height="130">
+      <img src="Starfinder.jpg"  width="180" height="100">
     </a>
   </div>
   
   <div class="iconbot">
     <a target="_blank" href="">
-      <img src="Dancing_hut.webp"  width="180" height="130">
+      <img src="fallout.jpg"  width="180" height="130">
     </a>
   </div>
 
   <div class="iconbot">
     <a target="_blank" href="">
-      <img src="Dancing_hut.webp"  width="180" height="130">
+      <img src="catan.jpg"  width="180" height="130">
     </a>
   </div>
 </section>
@@ -159,7 +162,7 @@
 
         
     <ul>
-      <li id="li1"> About us </li>
+      <li href= "About us.html" id="li1"> About us </li>
       <li id="li1"> Media Center</li>
       <li id="li1"> History</li>
     </ul>
@@ -175,7 +178,7 @@
       <li id="li3"> Cookie Settings</li>
     </ul>
     
-    <hr id="bottomline">
+  
     
     <h4 class="rights"> © Copyright Roll For Story 2014-2024</h4>
   </footer>
