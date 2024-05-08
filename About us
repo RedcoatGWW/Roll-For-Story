@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+ <html> <!--I have had some compatibility issues between different browsers as this prototype was developed on Opera. I believe that developing on either Chrome or edge would give the correct formatting. -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/f026b1f977.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Trebuchet MS', sans-serif;
+    }
+  </style>
+
+  <!-- This is my nav bar including the logo and the buttons to the other pages as well as the check out buttons. -->
+  <div class='bignav'>
+    <div class="navbar">
+      <button class="navbut">Home </button>
+      <button class="navbut">Paid Listings </button>
+      <button class="navbut">Free Listings </button>
+      <button class="navbut">Support </button>
+      <img id = "toplogo" href = "index.html" src="Logo.png"  align = "center" alt="" width="120" height="80">
+      <button class="signup">Sign-Up </button>
+      <button class="signup">Log in </button>
+    </div>  
+  </div>
+
+</head>
+
+<body>
+  <div class = "suintro">
+  <h1> We are Roll For Story</h1>
+  <h2> Created by the players, for the players</h2>
+  <p> Roll for story is a dungeons and Dragons community founded in 2014. Starting with Chris (Senrith) he brought together a group of friends and strangers to play though his homebrew campaign 'Baba Yaga's Dancing hut'. The campaign was a success and was eventually streamed to twitch. From there the community has branched out gathering more players to join the adventures. Roll for story is here to continue to bring players to the table with ease and fun. Where will your next journey take you? </p>
+  
+  </div>
+
+
+
+  <br>
+
+
+</body>
+
+
+  <script src="script.js" theme="dark" position="bottom-right"></script>
+
+   <footer>
+     <p id = "logofoot"><img src="Logo.png" width="170" height="80"></p>
+
+     <section class = "social">
+
+     <div class='socials'>
+       <a href="#"></a>
+         <img src="Twitter-Logo.wine.png" width="35" height="30">
+     </div>
+
+     <div class='socials'>
+         <img src="Instagram-Glyph-White-Logo.wine.png" width="35" height="30">
+     </div> 
+
+     <div class='socials'>
+       <img src="YouTube-Icon-White-Logo.wine.png" width="35" height="30">
+     </div> 
+
+     <div class='socials'>
+         <img src="Facebook-f_Logo-White-Logo.wine.png" width="35" height="30" href = "www.youtube.com">
+     </div>  
+     </section>
+
+
+
+
+     <ul>
+       <li id= "li1"> About us </li>
+       <li id="li1"> Media Center</li>
+       <li id="li1"> History</li>
+     </ul>
+     <ul>
+       <li id="li2"> Need Help?</li>
+       <li id="li2"> FAQs</li>
+       <li id="li2"> Contact Us</li>
+     </ul>
+     <ul>
+       <li id="li3"> Terms of Use</li>
+       <li id="li3"> Privacy Policy</li>
+       <li id="li3"> Cookie Policy</li>
+       <li id="li3"> Cookie Settings</li>
+     </ul>
+
+     <h4 class="rights"> © Copyright Roll For Story 2014-2024</h4>
+   </footer>
+</html>
