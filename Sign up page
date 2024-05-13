@@ -31,8 +31,8 @@
 <body>
   <div class = "suintro">
   <h1> Welcome to Roll For Story</h1>
-  <h2> The best place to find your next story</h2>
-  <h2> Please fill in your details below to get started!</h2>
+  <h3> Where will your next story take you?</h3>
+  <h3> Fill in your details below and find out!</h3>
   <br>
     </div>
   <div class = "form">
