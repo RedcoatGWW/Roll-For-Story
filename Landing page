@@ -15,13 +15,12 @@
   <!-- This is my nav bar including the logo and the buttons to the other pages as well as the check out buttons. -->
   <div class='bignav'>
     <div class="navbar">
-      <button class="navbut">Home </button>
+      <button class="navbut"><a href="index.html"></a>Home </button>
       <button class="navbut">Paid Listings </button>
       <button class="navbut">Free Listings </button>
       <button class="navbut">Support </button>
       <img id = "toplogo" href = "index.html" src="Logo.png"  align = "center" alt="" width="120" height="80">
-      <button class = "signup">Sign-Up </button>
-        <a href = "Sign-up.html">  </a>
+      <a href="Sign-up.html"><button class="signup">Sign-Up</button></a>
       <button class="signup">Log in </button>
       <!-- <a href='Sign-up.html' target="_blank" class="signup"  >Sign Up </a>
       <a href='*' target="_blank" class="signup">Log In </a> -->
@@ -162,7 +161,7 @@
 
         
     <ul>
-      <li href= "About us.html" id="li1"> About us </li>
+      <li id="li1"><a href="About us.html"></a> About us </li>
       <li id="li1"> Media Center</li>
       <li id="li1"> History</li>
     </ul>
