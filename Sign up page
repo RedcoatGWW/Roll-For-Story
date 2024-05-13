@@ -15,11 +15,12 @@
   <!-- This is my nav bar including the logo and the buttons to the other pages as well as the check out buttons. -->
   <div class='bignav'>
     <div class="navbar">
-      <button class="navbut">Home </button>
+      <button class="navbut"><a href="index.html"></a>Home </button>
       <button class="navbut">Paid Listings </button>
       <button class="navbut">Free Listings </button>
       <button class="navbut">Support </button>
       <img id = "toplogo" href = "index.html" src="Logo.png"  align = "center" alt="" width="120" height="80">
+      
       <button class="signup">Sign-Up </button>
       <button class="signup">Log in </button>
     </div>  
