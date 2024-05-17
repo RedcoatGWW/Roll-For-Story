@@ -22,15 +22,11 @@
       <img id = "toplogo" href = "index.html" src="Logo.png"  align = "center" alt="" width="120" height="80">
       <a href="Sign-up.html"><button class="signup">Sign-Up</button></a>
       <button class="signup">Log in </button>
-      <!-- <a href='Sign-up.html' target="_blank" class="signup"  >Sign Up </a>
-      <a href='*' target="_blank" class="signup">Log In </a> -->
     </div>  
   </div>
-
 </head>
-  
 <body>
-  <!-- This contains my navigation bar including dropdowns. -->
+  <!-- This contains my navigation bar -->
 
   <!-- This div class contains my slideshow and the images -->
   <div class="slideshow-container"> 
@@ -43,7 +39,6 @@
       <h4>Day/Time: Friday, 7:00pm </h4>
       <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
     </div>
-    
     <div class="mySlides fade">
       <img src="ebberon.jpg" style="width: 350px;height:250px;" >
       <h4>Organiser: UKWoody (Dan)</h4>
@@ -52,7 +47,6 @@
       <h4>Day/Time: Sunday, 6:00pm </h4>
       <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
     </div>
-    
     <div class="mySlides fade">
       <img src="Terigs tower.jpg" style="width: 350px;height:250px;" >
       <h4>Organiser: MisterJammers (Jamey)</h4>
@@ -61,7 +55,6 @@
       <h4>Day/Time: Thursday, 4:00pm </h4>
       <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
     </div>
-    
     <div class="mySlides fade">
       <img src="curseofstrahd.png" style="width: 350px;height:250px;" >
       <h4>Organiser: BardicChaos (James)</h4>
@@ -71,9 +64,7 @@
       <button id="disclick"> <strong>Click to join &#8594 </strong>   </button>
     </div>
   </div>
-  
   <br>
-  
   <!-- This is the slider selector dots -->
   <div style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span>
@@ -81,85 +72,61 @@
     <span class="dot" onclick="currentSlide(3)"></span>
     <span class="dot" onclick="currentSlide(4)"></span>
   </div>
-
   <h2 id="explore"> Discover Games </h2>
-  <!-- This contains my images for the logo grid -->
+  <!-- This contains my images for the the games grid -->
   <section class = "logogrid">
   <div class="icontop">
     <a target="_blank" href="">
       <img src="dnd5e.png"  width="180" height="130">
     </a>
   </div>
-  
   <div class="icontop">
     <a target="_blank" href="">
       <img src="3.5.jpg" alt="Forest" width="180" height="100">
     </a>
   </div>
-
   <div class="icontop">
     <a target="_blank" href="">
       <img src="Pathfinder-logo.webp"  width="180" height="130">
     </a>
   </div>
-
-
-
   <div class="iconbot">
     <a target="_blank" href="">
       <img src="Starfinder.jpg"  width="180" height="100">
     </a>
   </div>
-  
   <div class="iconbot">
     <a target="_blank" href="">
       <img src="fallout.jpg"  width="180" height="130">
     </a>
   </div>
-
   <div class="iconbot">
     <a target="_blank" href="">
       <img src="catan.jpg"  width="180" height="130">
     </a>
   </div>
 </section>
-
 <button id="viewall"> <strong>View All  </strong>   </button>
-  
-  
 </body>
-
-  
   <script src="script.js" theme="dark" position="bottom-right"></script>
-  
-  
   <!-- The footer contains images, lists, button icons and horizontal lines to separate sections -->
   <footer>
     <p id = "logofoot"><img src="Logo.png" width="170" height="80"></p>
-
-    <section class = "social">
-      
+    <section class = "social">  
     <div class='socials'>
       <a href="#"></a>
         <img src="Twitter-Logo.wine.png" width="35" height="30">
     </div>
-      
     <div class='socials'>
         <img src="Instagram-Glyph-White-Logo.wine.png" width="35" height="30">
     </div> 
-      
     <div class='socials'>
       <img src="YouTube-Icon-White-Logo.wine.png" width="35" height="30">
     </div> 
-      
     <div class='socials'>
         <img src="Facebook-f_Logo-White-Logo.wine.png" width="35" height="30" href = "www.youtube.com">
     </div>  
     </section>
-
-
-
-        
     <ul>
       <li id="li1"><a href="About us.html"></a> About us </li>
       <li id="li1"> Media Center</li>
@@ -176,9 +143,6 @@
       <li id="li3"> Cookie Policy</li>
       <li id="li3"> Cookie Settings</li>
     </ul>
-    
-  
-    
     <h4 class="rights"> © Copyright Roll For Story 2014-2024</h4>
   </footer>
 </html>
