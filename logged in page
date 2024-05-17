@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <html> <!--I have had some compatibility issues between different browsers as this prototype was developed on Opera. I believe that developing on either Chrome or edge would give the correct formatting. -->
+ <html> 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -11,7 +11,6 @@
       font-family: 'Trebuchet MS', sans-serif;
     }
   </style>
-
   <!-- This is my nav bar including the logo and the buttons to the other pages as well as the check out buttons. -->
   <div class='bignav'>
     <div class="navbar">
@@ -24,9 +23,8 @@
       <button class="signup">Log in </button>
     </div>  
   </div>
-
 </head>
-
+   <!-- The body contains the start to the preferences page for the user, i was unable to add everything i wanted to add to the page so i just added the basics. -->
 <body>
   <div class = "suintro">
   <h1> Thank you for signing up!
@@ -45,50 +43,31 @@
       <label for="game2"> Dungeons and Dragons 3.5e</label><br>
       <input type="checkbox" id="game3" name="game3" value="Pathfinder">
       <label for="game3"> Pathfinder</label>
-      </form>
-      
+    </form>
       <br>
       <input type="Submit" formaction="About us.html"value="Sign-up">
-
     </form>
   </div>
-
-
-
   <br>
-
-
 </body>
-
-
   <script src="script.js" theme="dark" position="bottom-right"></script>
-
    <footer>
      <p id = "logofoot"><img src="Logo.png" width="170" height="80"></p>
-
      <section class = "social">
-
      <div class='socials'>
        <a href="#"></a>
          <img src="Twitter-Logo.wine.png" width="35" height="30">
      </div>
-
      <div class='socials'>
          <img src="Instagram-Glyph-White-Logo.wine.png" width="35" height="30">
      </div> 
-
      <div class='socials'>
        <img src="YouTube-Icon-White-Logo.wine.png" width="35" height="30">
      </div> 
-
      <div class='socials'>
          <img src="Facebook-f_Logo-White-Logo.wine.png" width="35" height="30" href = "www.youtube.com">
      </div>  
      </section>
-
-
-
-
      <ul>
        <li id="li1"> About us </li>
        <li id="li1"> Media Center</li>
@@ -105,7 +84,6 @@
        <li id="li3"> Cookie Policy</li>
        <li id="li3"> Cookie Settings</li>
      </ul>
-
      <h4 class="rights"> © Copyright Roll For Story 2014-2024</h4>
    </footer>
 </html>
